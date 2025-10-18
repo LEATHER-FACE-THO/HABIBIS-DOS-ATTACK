@@ -135,7 +135,7 @@ class DDosAttacker(QMainWindow):
             }
         """)
         discord_button.setObjectName("discordButton")
-        discord_button.clicked.connect(lambda: webbrowser.open('https://discord.gg/4svwzsy3UP'))
+        discord_button.clicked.connect(lambda: webbrowser.open('https://discord.gg/Zcq7GD3FFH'))
         
         discord_layout.addWidget(discord_button)
         
@@ -519,4 +519,5 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = DDosAttacker()
     window.show()
+
     sys.exit(app.exec())
