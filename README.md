@@ -4,7 +4,7 @@
 
 # 🚀 THO HABIBIS DDOS ATTACK TOOL
 
-[![Discord](https://img.shields.io/badge/Discord-Únete_al_servidor-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/4svwzsy3UP)
+[![Discord](https://img.shields.io/badge/Discord-Únete_al_servidor-7289da?style=flat&logo=discord&logoColor=white)](https://discord.gg/Zcq7GD3FFH)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=fb_-q2-teNA&ab_channel=TODOHACKOFFICIAL)
 
 Una herramienta de DDoS con interfaz gráfica que incluye múltiples métodos de ataque y bypass.
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 1. Ejecutar el script:
 ```bash
-python "THO DDOS WEB.py"
+python "THO DDOS WEB.pyw"
 ```
 
 2. Ingresar la URL objetivo
