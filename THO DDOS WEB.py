@@ -33,7 +33,7 @@ class DDosAttacker(QMainWindow):
             QMessageBox.critical(None, "Error", "No hay conexión a internet")
             sys.exit()
 
-        self.setWindowTitle("TODO HACK OFFICIAL - HABIBIS DDOS ATTACK SIMPLE : BY HANNIBAL THO")
+        self.setWindowTitle("TODO HACK OFFICIAL - HABIBIS DDOS ATTACK SIMPLE : BY MAMASITA THO")
         self.setFixedSize(900, 700)
         
         self.setAttribute(Qt.WA_TranslucentBackground)
@@ -521,3 +521,4 @@ if __name__ == '__main__':
     window.show()
 
     sys.exit(app.exec())
+
