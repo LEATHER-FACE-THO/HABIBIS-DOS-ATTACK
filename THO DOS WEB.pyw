@@ -14,7 +14,7 @@ import urllib3
 import os
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-class DDosAttacker(QMainWindow):
+class DOSAttacker(QMainWindow):
     log_signal = Signal(str)  
 
     def __init__(self):
@@ -33,7 +33,7 @@ class DDosAttacker(QMainWindow):
             QMessageBox.critical(None, "Error", "No hay conexión a internet")
             sys.exit()
 
-        self.setWindowTitle("TODO HACK OFFICIAL - HABIBIS DDOS ATTACK SIMPLE : BY MAMASITA THO")
+        self.setWindowTitle("TODO HACK OFFICIAL - HABIBIS DOS ATTACK SIMPLE : BY MAMASITA THO")
         self.setFixedSize(900, 700)
         
         self.setAttribute(Qt.WA_TranslucentBackground)
@@ -144,7 +144,7 @@ class DDosAttacker(QMainWindow):
         header_layout.addWidget(discord_container)
         container_layout.addLayout(header_layout)
         
-        subtitle = QLabel("HABIBIS DDOS ATTACK SIMPLE : BY HANNIBAL THO")
+        subtitle = QLabel("HABIBIS DOS ATTACK SIMPLE : BY HANNIBAL THO")
         subtitle.setStyleSheet("QLabel { color: #00ff00; font-weight: bold; }")
         subtitle.setObjectName("subtitle")
         subtitle.setAlignment(Qt.AlignCenter)
@@ -517,8 +517,9 @@ class DDosAttacker(QMainWindow):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = DDosAttacker()
+    window = DOSAttacker()
     window.show()
 
     sys.exit(app.exec())
+
 
